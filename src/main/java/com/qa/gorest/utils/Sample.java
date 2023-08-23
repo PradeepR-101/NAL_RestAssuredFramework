@@ -29,9 +29,16 @@ public void lastMeth(){
     
 }
 
+
 	public void newMethod(){
 
 	}
+
+public void local() {
+	
+}
+
+
 
 
 }
