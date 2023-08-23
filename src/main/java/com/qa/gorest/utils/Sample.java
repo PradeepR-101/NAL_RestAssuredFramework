@@ -29,6 +29,9 @@ public void lastMeth(){
     
 }
 
+	public void newMethod(){
+
+	}
 
 
 }
