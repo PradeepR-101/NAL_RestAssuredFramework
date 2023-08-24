@@ -7,3 +7,5 @@ public class StringUtils {
 	}
 
 }
+
+//just for git practice
