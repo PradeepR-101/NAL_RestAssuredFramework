@@ -5,8 +5,8 @@ FROM maven:3.8.3-openjdk-11
 WORKDIR /app
 
 # Copy the Maven project files into the container
-COPY pom.xml .
-COPY src ./src
+COPY pom.xml .       // # this will Copy the pom.xml file from project(source) to the root(.) of app folder inside the container(target)
+COPY src ./src       // # this will Copy the src file from project(source) to the root(.) of app folder inside the container(target) by creating src folder
 
 # Switch to the directory containing the pom.xml
 WORKDIR /app
