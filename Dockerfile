@@ -1,5 +1,5 @@
 # Use a base image with Maven and Java
-FROM maven:3.8.3-openjdk-11
+FROM maven:3.8.3-openjdk-11      //#we can mention any version of maven and jdk but use latest version and it will download from internet
 
 # Set the working directory inside the container
 WORKDIR /app
